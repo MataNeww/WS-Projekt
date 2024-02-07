@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&display=swap');
+
+:root {
+    --title-color: black;
+    --text-color: hsl(235, 20%, 57%);
+
+    --body-font: 'Poppins', sans-serif;
+    --biggest-font-size: 2.25rem;
+    --normal-font-size: 1.25rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--text-color);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card {
+    display: flex;
+    place-items: center;
+    padding-block: 2.5rem;
+    justify-content: space-around;
+}
+
+.card-container {
+    margin-inline: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+}
+
+.card-article {
+    position: relative;
+    padding: 2.5rem;
+    border-radius: 2rem;
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-article:hover {
+    box-shadow: 0 20px 24px 15px hsla(235, 32%, 15%, .2);
+}
+
+.card-img {
+    width: 250px;
+    margin-bottom: 1rem;
+    animation: float-img 2.5s ease-in-out infinite;
+}
+
+.card-title {
+    color: var(--title-color);
+    font-size: var(--biggest-font-size);
+    line-height: 100%;
+    margin-bottom: 1rem;
+}
+
+.card-title#brimestone {
+    font-size: 1.9rem;
+    line-height: 70%;
+    margin-bottom: 1rem;
+}
+
+.card-description {
+    font-size: var(--normal-font-size);
+}
+
+.card-data {
+    position: relative;
+    z-index: auto;
+}
+
+.card-button {
+    display: inline-block;
+    background-color: #FF4457;
+    padding: 0.5rem 1.5rem;
+    border-radius: .5rem;
+    color: #000000;
+    margin-top: 5px;
+}
+
+.card-button:hover{
+    color:#FFFFFF;
+}
+
+
+#float {
+    float: left;
+    text-align: left;
+    margin: 2%;
+    font-size: 45px;
+    text-orientation: upright;
+}
+
+h1 {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.content {
+    text-align: center;
+    font-size: 18px;
+}

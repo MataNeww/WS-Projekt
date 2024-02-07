@@ -1,0 +1,25 @@
+.content {
+    margin-left: 60px;
+    max-width: 600px;
+    width: 100%;
+    position: fixed;
+    top: 35%;
+    text-align: left;
+    color: black;
+}
+.content button{
+    background-color: #FF4457;
+    margin: 1.5rem 0 0 11rem;
+}
+
+.content p{
+    font-size: 1.25rem;
+}
+
+img {
+    height: 42rem;
+    position: fixed;
+    bottom: -5px;
+    right: -150px;
+    z-index: -1;
+}

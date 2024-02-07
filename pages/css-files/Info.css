@@ -1,0 +1,65 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2%;
+    background-color: #FFFFFF;
+}
+
+div{
+    margin: 3% 4%;
+}
+img{
+    width: 100%;
+}
+
+h1 {
+    background: none;
+    text-align: left;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+h2{
+    margin-top: 1.5rem;
+}
+
+section {
+    font-size: 1.4rem;
+    margin-top: 4rem;
+}
+
+section p:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p {
+    text-align: left;
+    font-size: 19px;
+}
+
+.img-left{
+    float: left;
+    margin-right: 20px;
+    height: 16rem;
+    width: auto;
+}
+
+.img-right{
+    float: right;
+    margin-right: 20px;
+    height: 16rem;
+    width: auto;
+}
+
+#img-left-riot-games{
+    float: left;
+    height: 11rem;
+    width: auto;
+    margin-right: 20px;
+}
+
+
+
